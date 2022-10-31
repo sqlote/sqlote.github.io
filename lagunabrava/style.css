@@ -17,6 +17,8 @@ header .logo{
 
 }
 
+
+
 header nav{
     display: flex;
     text-align: center;
@@ -78,4 +80,28 @@ header a:hover{
 
 #acercaCentro {
     justify-content: center;
+}
+
+.slide {
+    margin-top: 10px;
+}
+
+.slide img{
+    height: 80vh;
+    width: auto;
+    
+}
+
+.slide p{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: large;
+    font-weight: bold;
+}
+
+.slide h5{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: large;
+    font-weight: bold;
 }
