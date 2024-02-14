@@ -17,6 +17,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["precioContado"])) {
         // "SUCREDITO 3 CTAS" => ($precioContado * 1.1399) / 3,
         "NARANJA PLAN Z" => $precioContado * 1.05,
         "NARANJA PLAN Z 3 CTAS" => ($precioContado * 1.05) / 3,
+        "NARANJA 12 SOLICITADO" => $precioContado * 1.845, 
+        "NARANJA 12 CTAS" => ($precioContado * 1.845) / 12,
+        "NARANJA 6 SOLICITADO" => $precioContado * 1.355, 
+        "NARANJA 6 CTAS" => ($precioContado * 1.355) / 6,
+        "VISA Y MASTER COMUN 18 SOLICITADO" => $precioContado * 4.1, 
+        "VISA Y MASTER COMUN 18 CTAS" => ($precioContado * 4.1) / 18,
+        "VISA Y MASTER COMUN 12 SOLICITADO" => $precioContado * 3, 
+        "VISA Y MASTER COMUN 12 CTAS" => ($precioContado * 3) / 12,
+        "VISA Y MASTER COMUN 6 SOLICITADO" => $precioContado * 2, 
+        "VISA Y MASTER COMUN 6 CTAS" => ($precioContado * 2) / 6,
+        "VISA Y MASTER COMUN 3 SOLICITADO" => $precioContado * 1.5, 
+        "VISA Y MASTER COMUN 3 CTAS" => ($precioContado * 1.5) / 3,
     );
 
     echo json_encode($cotizaciones);
